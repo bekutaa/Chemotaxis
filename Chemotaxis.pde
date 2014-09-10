@@ -1,6 +1,8 @@
+//Declare Bacteria and Food.
 Bacteria ichi, ni, san, yon, go;
 Food un;
 
+//Initialize timer for Food spawn.
 int timer1 = 0;
 int randomTimer = (int)(Math.random()*3)+2;
 
