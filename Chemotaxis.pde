@@ -107,18 +107,6 @@ void keyPressed()
       colony[i].randomPos();
     }
   }
-
-  if (key == 'z')
-  {
-    colony[0].deathFlag = true;
-    colony[0].mySize = 15;
-  }
-
-  if (key == 'q')
-  {
-    colony[0].deathFlag = false;
-    colony[0].mySize = 15;
-  }
 }
 
 void targetCircle()
